@@ -97,6 +97,7 @@ body {
 }
 /* services */
 .services {
+  margin-bottom: 92px;
 }
 .h1__services {
   color: #1c1c1c;
@@ -158,6 +159,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: 12px;
 }
 
 .p__grid {
@@ -167,6 +169,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 22px; /* 137.5% */
+  margin: 0;
 }
 .ico__painting {
   width: 122.106px;
@@ -181,7 +184,7 @@ body {
 .ico__cleaning {
   width: 118.885px;
   height: 122px;
-  margin-bottom: 38px;
+  margin-bottom: 37px;
 }
 .ico__furnitures {
   width: 118.051px;
@@ -192,4 +195,141 @@ body {
   width: 122.812px;
   height: 122px;
   margin-bottom: 38px;
+}
+/* section */
+.work {
+}
+.h2__work {
+  color: #1c1c1c;
+  font-family: "Cabinet Grotesk";
+  font-size: 62px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+.p__work {
+  color: #5c5c5c;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px; /* 141.176% */
+  margin: 0 auto;
+  margin-bottom: 42px;
+  max-width: 930px;
+}
+.grid__work {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin-left: 105px;
+  margin-right: 102px;
+}
+.grid__item-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 686px;
+}
+.marketingBorder,
+.freedomBorder {
+  height: 632px;
+}
+.lookingBorder,
+.marketingBorder {
+  border-right: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+}
+.dedicatedBorder,
+.freedomBorder {
+  /* border-left: 2px solid #e0e0e0; */
+  border-bottom: 2px solid #e0e0e0;
+}
+.tenantBorder {
+  border-right: 2px solid #e0e0e0;
+}
+.img__item {
+  margin-right: 0px;
+  margin-bottom: 2px;
+}
+.imgMarketing,
+.freedom,
+.tenant,
+.deal {
+  margin-top: 70px;
+}
+.tenant,
+.deal {
+  margin-top: 71px;
+}
+
+.imgLooking,
+.dedicated {
+  margin-top: 97px;
+}
+.imgLooking,
+.imgMarketing,
+.tenant {
+  margin-left: 6px;
+}
+.dedicated,
+.freedom,
+.deal {
+  margin-right: 12px;
+}
+.h3__item {
+  color: #1c1c1c;
+  font-family: "Cabinet Grotesk";
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+}
+.p__item {
+  color: #5c5c5c;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px; /* 141.176% */
+  margin: 0;
+  width: 412px;
+  height: 72px;
+}
+
+.deal-p {
+  margin-right: 10px;
+}
+.deal-h3 {
+  margin-right: 12px;
+}
+.tenant-p {
+  margin-left: 4px;
+}
+.tenant-h3 {
+  margin-left: 8px;
+}
+.freedom-p {
+  margin-right: 10px;
+}
+.freedom-h3 {
+  margin-right: 12px;
+}
+.marketing-p {
+  margin-left: 4px;
+}
+.marketing-h3 {
+  margin-left: 4px;
+}
+.dedicated-p {
+  margin-right: 10px;
+}
+.dedicated-h3 {
+  margin-right: 12px;
+}
+.looking-p {
+  margin-left: 4px;
+}
+.looking-h3 {
+  margin-left: 4px;
 }
