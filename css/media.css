@@ -1,0 +1,65 @@
+@media screen and (max-width: 1350px) {
+  .grid__services {
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .grid__services {
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .grid-item {
+    padding: 10px;
+    align-items: center;
+  }
+  .ico__plumber,
+  .ico__painting,
+  .ico__logistics,
+  .ico__cleaning,
+  .ico__furnitures,
+  .ico__more {
+    width: 78.018px;
+    height: 81px;
+    margin-bottom: 0px;
+  }
+  .h2__services {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .p__grid {
+    font-size: 14px;
+  }
+  .h1__services {
+    font-size: 42px;
+  }
+  .p__services {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .grid__services {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .grid__services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ico__plumber,
+  .ico__painting,
+  .ico__logistics,
+  .ico__cleaning,
+  .ico__furnitures,
+  .ico__more {
+    width: 78.018px;
+    height: 81px;
+  }
+}
