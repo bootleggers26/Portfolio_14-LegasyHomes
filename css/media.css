@@ -4,12 +4,87 @@
     margin-right: 50px;
     gap: 20px;
   }
+  .imglogo__header,
+  .flex__nav-items,
+  .flex__button,
+  .btn__signIn,
+  .btn__singUp,
+  .imgLooking,
+  .imgMarketing,
+  .tenant,
+  .dedicated,
+  .freedom,
+  .deal,
+  .dedicated-h3,
+  .looking-h3,
+  .marketing-h3,
+  .freedom-h3,
+  .tenant-h3,
+  .deal-h3,
+  .dedicated-p,
+  .looking-p,
+  .marketing-p,
+  .freedom-p,
+  .tenant-p,
+  .deal-p {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  .imgLooking,
+  .imgMarketing,
+  .tenant,
+  .dedicated,
+  .freedom,
+  .deal {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .lookingBorder,
+  .marketingBorder,
+  .dedicatedBorder,
+  .freedomBorder,
+  .tenantBorder,
+  .dealBorder {
+    justify-content: center;
+  }
+  .imgLooking,
+  .imgMarketing,
+  .tenant,
+  .dedicated,
+  .freedom,
+  .deal {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    max-width: 312px;
+    min-height: 312px;
+  }
+  .flex__header {
+    justify-content: space-around;
+  }
+  .flex__nav-items {
+    gap: 20px;
+  }
+  .grid__work {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 @media screen and (max-width: 1100px) {
   .grid__services {
     margin-left: 20px;
     margin-right: 20px;
     gap: 20px;
+  }
+  .flex__header {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .grid__work {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media screen and (max-width: 880px) {
@@ -34,18 +109,60 @@
   .p__grid {
     font-size: 14px;
   }
-  .h1__services {
+  .h1__services,
+  .h2__work {
     font-size: 42px;
   }
-  .p__services {
+  .p__services,
+  .p__work {
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
   }
-}
-@media screen and (max-width: 880px) {
   .grid__services {
     grid-template-columns: repeat(2, 2fr);
+  }
+  .grid__work {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /*  */
+  .lookingBorder,
+  .marketingBorder {
+    border-right: none;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  .dedicatedBorder,
+  .freedomBorder {
+    border-left: none;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  .tenantBorder {
+    border-right: none;
+  }
+  .grid__item-work {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .flex__nav-items {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .burger_flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .flex__header {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 600px) {
+  .flex__header {
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
@@ -63,3 +180,4 @@
     height: 81px;
   }
 }
+/*  */

@@ -293,8 +293,8 @@ body {
   font-weight: 400;
   line-height: 24px; /* 141.176% */
   margin: 0;
-  width: 412px;
-  height: 72px;
+  max-width: 412px;
+  min-height: 72px;
 }
 
 .deal-p {
@@ -332,4 +332,51 @@ body {
 }
 .looking-h3 {
   margin-left: 4px;
+}
+
+/* burger-menu */
+.burger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.burger-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #1c1c1c;
+  margin: 5px 0;
+}
+
+.menu-modal {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+header .menu-modal li,
+.menu-modal a {
+  text-decoration: none;
+  color: #263238;
+  font-family: "Cabinet Grotesk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu-modal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-modal li {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-modal li:last-child {
+  border-bottom: none;
 }
